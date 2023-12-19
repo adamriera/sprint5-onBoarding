@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 
-import { IStepService } from './i-step.service';
+import { IStepService } from './steps.service';
 
 describe('IStepService', () => {
   let service: IStepService;

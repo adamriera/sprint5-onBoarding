@@ -9,10 +9,10 @@ import { HomeComponent } from './home/home.component';
   imports: [
     CommonModule,
     RouterOutlet,
-    HomeComponent,],
+    HomeComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'onBoarding-last';
+  title = 'onBoarding';
 }

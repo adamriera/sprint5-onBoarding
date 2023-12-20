@@ -6,10 +6,10 @@
         <div *ngIf="i===counter">
           <div [ngClass]="{'bg-primary': counter === 0, 'bg-secondary': counter === 1, 'bg-success': counter === 2}"
             class="py-3 d-flex justify-content-center align-items-center container-img">
-            <img [src]="frasesArray[counter].img" alt="{{ img }}" class="img-fluid py-5">
+            <img [src]="frasesArray[counter].img" alt=" {{ img }}" class="img-fluid py-5">
           </div>
-          <div class="p-3">
-            <h2 class="h5 pt-3">{{ frasesArray[counter].title }}</h2>
+          <div class="p-3 container-text">
+            <h2 class="h5 pt-3 fw-bold">{{ frasesArray[counter].title }}</h2>
             <p>{{ frasesArray[counter].description }}</p>
           </div>
         </div>

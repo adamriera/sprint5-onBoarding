@@ -1,0 +1,64 @@
+
+.card {
+  width: 100%;
+  max-width: 22rem;
+  overflow: hidden;
+  margin: auto;
+  min-height: 740px;
+  position: relative;
+}
+
+.container-img {
+  min-height: 390px;
+  max-height: 312px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.dot.active {
+  background-color: #212529;
+  width: 2rem;
+  border-radius: 2rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.fordward {
+  font-size: 2rem;
+  line-height: 0;
+  height: 4rem;
+  width: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.rewind {
+  font-size: 2rem;
+  line-height: 0;
+  height: 4rem;
+  width: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3px;
+}

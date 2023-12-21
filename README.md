@@ -1,4 +1,14 @@
-# OnBoardingLast
+IT ACADEMY - Mentored Front End itineray with Angular
+
+       Sprint 5. Angular I.
+
+       s5 - Angular.
+            "This exercise consists in building a short project with Angular."
+
+
+______________________________________________________________________________________________________
+
+# OnBoarding
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.
 
